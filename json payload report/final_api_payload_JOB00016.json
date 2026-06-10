@@ -1,0 +1,4 @@
+{
+    "status": "error",
+    "message": "An error occurred inside the dispatcher subsystem: argument of type 'NoneType' is not iterable"
+}

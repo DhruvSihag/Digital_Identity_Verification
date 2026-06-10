@@ -1,0 +1,142 @@
+{
+    "status": "success",
+    "inputs_processed": [
+        "jai bhat"
+    ],
+    "email_results": [],
+    "phone_results": [],
+    "username_results": [
+        {
+            "status": "success",
+            "input_type": "username",
+            "target": "jai bhat",
+            "metrics": {
+                "total_profiles_located": 9
+            },
+            "matches": [
+                {
+                    "platform": "Boardgamegeek",
+                    "category": "social_presence",
+                    "url": "https://boardgamegeek.com/user/jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Discord",
+                    "category": "social_presence",
+                    "url": "https://discord.com",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Hive",
+                    "category": "social_presence",
+                    "url": "https://hive.blog/@jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Lesswrong",
+                    "category": "social_presence",
+                    "url": "https://www.lesswrong.com/users/jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Odysee",
+                    "category": "social_presence",
+                    "url": "https://odysee.com/@jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Xboxgamertag",
+                    "category": "social_presence",
+                    "url": "https://xboxgamertag.com/search/jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mastodon",
+                    "category": "social_presence",
+                    "url": "https://mastodon.cloud/@jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Jai%20bhat",
+                    "category": "social_presence",
+                    "url": "https://jai%20bhat.omg.lol",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Baby",
+                    "category": "social_presence",
+                    "url": "https://www.baby.ru/u/jai%20bhat",
+                    "status": "Verified Profile Account Located"
+                }
+            ]
+        }
+    ],
+    "instagram_results": [
+        {
+            "target_username": "jai bhat",
+            "platform": "Instagram",
+            "status": "Target Profile Analysis",
+            "extracted_data": {
+                "bio": null,
+                "avatar_url": null,
+                "top_posts": []
+            }
+        }
+    ],
+    "all_matches": [
+        {
+            "platform": "Boardgamegeek",
+            "category": "social_presence",
+            "url": "https://boardgamegeek.com/user/jai%20bhat",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Discord",
+            "category": "social_presence",
+            "url": "https://discord.com",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Hive",
+            "category": "social_presence",
+            "url": "https://hive.blog/@jai%20bhat",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Lesswrong",
+            "category": "social_presence",
+            "url": "https://www.lesswrong.com/users/jai%20bhat",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Odysee",
+            "category": "social_presence",
+            "url": "https://odysee.com/@jai%20bhat",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Xboxgamertag",
+            "category": "social_presence",
+            "url": "https://xboxgamertag.com/search/jai%20bhat",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mastodon",
+            "category": "social_presence",
+            "url": "https://mastodon.cloud/@jai%20bhat",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Jai%20bhat",
+            "category": "social_presence",
+            "url": "https://jai%20bhat.omg.lol",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Baby",
+            "category": "social_presence",
+            "url": "https://www.baby.ru/u/jai%20bhat",
+            "status": "Verified Profile Account Located"
+        }
+    ]
+}

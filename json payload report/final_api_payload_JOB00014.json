@@ -1,0 +1,260 @@
+{
+    "status": "success",
+    "inputs_processed": [
+        "itsakj"
+    ],
+    "email_results": [],
+    "phone_results": [],
+    "username_results": [
+        {
+            "status": "success",
+            "input_type": "username",
+            "target": "itsakj",
+            "metrics": {
+                "total_profiles_located": 18
+            },
+            "matches": [
+                {
+                    "platform": "Chess",
+                    "category": "social_presence",
+                    "url": "https://www.chess.com/member/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Codechef",
+                    "category": "social_presence",
+                    "url": "https://www.codechef.com/users/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Discord",
+                    "category": "social_presence",
+                    "url": "https://discord.com",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Hub",
+                    "category": "social_presence",
+                    "url": "https://hub.docker.com/u/itsakj/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Duolingo",
+                    "category": "social_presence",
+                    "url": "https://www.duolingo.com/profile/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Github",
+                    "category": "social_presence",
+                    "url": "https://www.github.com/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Cavalier",
+                    "category": "social_presence",
+                    "url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pokemonshowdown",
+                    "category": "social_presence",
+                    "url": "https://pokemonshowdown.com/users/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Rumble",
+                    "category": "social_presence",
+                    "url": "https://rumble.com/user/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Scratch",
+                    "category": "social_presence",
+                    "url": "https://scratch.mit.edu/users/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "T",
+                    "category": "social_presence",
+                    "url": "https://t.me/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Wattpad",
+                    "category": "social_presence",
+                    "url": "https://www.wattpad.com/user/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Xboxgamertag",
+                    "category": "social_presence",
+                    "url": "https://xboxgamertag.com/search/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Youtube",
+                    "category": "social_presence",
+                    "url": "https://www.youtube.com/@itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mastodon",
+                    "category": "social_presence",
+                    "url": "https://mastodon.cloud/@itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Osu",
+                    "category": "social_presence",
+                    "url": "https://osu.ppy.sh/users/itsakj",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pinterest",
+                    "category": "social_presence",
+                    "url": "https://www.pinterest.com/itsakj/",
+                    "status": "Verified Profile Account Located",
+                    "enriched_data": {
+                        "bio": "",
+                        "avatar_url": "https://i.pinimg.com/280x280_RS/3c/d1/10/3cd110f60718a6b400f5f2f12fe4d31c.jpg",
+                        "local_avatar_path": "avatars/https___www.pinterest.com_itsakj_.jpg"
+                    }
+                },
+                {
+                    "platform": "Threads",
+                    "category": "social_presence",
+                    "url": "https://www.threads.net/@itsakj",
+                    "status": "Verified Profile Account Located"
+                }
+            ]
+        }
+    ],
+    "instagram_results": [
+        {
+            "target_username": "itsakj",
+            "platform": "Instagram",
+            "status": "Target Profile Analysis",
+            "extracted_data": {
+                "bio": null,
+                "avatar_url": null,
+                "top_posts": []
+            }
+        }
+    ],
+    "all_matches": [
+        {
+            "platform": "Chess",
+            "category": "social_presence",
+            "url": "https://www.chess.com/member/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Codechef",
+            "category": "social_presence",
+            "url": "https://www.codechef.com/users/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Discord",
+            "category": "social_presence",
+            "url": "https://discord.com",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Hub",
+            "category": "social_presence",
+            "url": "https://hub.docker.com/u/itsakj/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Duolingo",
+            "category": "social_presence",
+            "url": "https://www.duolingo.com/profile/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Github",
+            "category": "social_presence",
+            "url": "https://www.github.com/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Cavalier",
+            "category": "social_presence",
+            "url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pokemonshowdown",
+            "category": "social_presence",
+            "url": "https://pokemonshowdown.com/users/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Rumble",
+            "category": "social_presence",
+            "url": "https://rumble.com/user/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Scratch",
+            "category": "social_presence",
+            "url": "https://scratch.mit.edu/users/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "T",
+            "category": "social_presence",
+            "url": "https://t.me/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Wattpad",
+            "category": "social_presence",
+            "url": "https://www.wattpad.com/user/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Xboxgamertag",
+            "category": "social_presence",
+            "url": "https://xboxgamertag.com/search/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Youtube",
+            "category": "social_presence",
+            "url": "https://www.youtube.com/@itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mastodon",
+            "category": "social_presence",
+            "url": "https://mastodon.cloud/@itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Osu",
+            "category": "social_presence",
+            "url": "https://osu.ppy.sh/users/itsakj",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pinterest",
+            "category": "social_presence",
+            "url": "https://www.pinterest.com/itsakj/",
+            "status": "Verified Profile Account Located",
+            "enriched_data": {
+                "bio": "",
+                "avatar_url": "https://i.pinimg.com/280x280_RS/3c/d1/10/3cd110f60718a6b400f5f2f12fe4d31c.jpg",
+                "local_avatar_path": "avatars/https___www.pinterest.com_itsakj_.jpg"
+            }
+        },
+        {
+            "platform": "Threads",
+            "category": "social_presence",
+            "url": "https://www.threads.net/@itsakj",
+            "status": "Verified Profile Account Located"
+        }
+    ]
+}

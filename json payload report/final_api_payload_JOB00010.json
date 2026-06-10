@@ -1,0 +1,92 @@
+{
+    "status": "success",
+    "inputs_processed": [
+        "devendraprajapt42"
+    ],
+    "email_results": [],
+    "phone_results": [],
+    "username_results": [
+        {
+            "status": "success",
+            "input_type": "username",
+            "target": "devendraprajapt42",
+            "metrics": {
+                "total_profiles_located": 4
+            },
+            "matches": [
+                {
+                    "platform": "Medium",
+                    "category": "social_presence",
+                    "url": "https://medium.com/@devendraprajapt42",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mastodon",
+                    "category": "social_presence",
+                    "url": "https://mastodon.cloud/@devendraprajapt42",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pinterest",
+                    "category": "social_presence",
+                    "url": "https://www.pinterest.com/devendraprajapt42/",
+                    "status": "Verified Profile Account Located",
+                    "enriched_data": {
+                        "bio": "",
+                        "avatar_url": null,
+                        "local_avatar_path": null
+                    }
+                },
+                {
+                    "platform": "Baby",
+                    "category": "social_presence",
+                    "url": "https://www.baby.ru/u/devendraprajapt42",
+                    "status": "Verified Profile Account Located"
+                }
+            ]
+        }
+    ],
+    "instagram_results": [
+        {
+            "target_username": "devendraprajapt42",
+            "platform": "Instagram",
+            "status": "Target Profile Analysis",
+            "extracted_data": {
+                "bio": null,
+                "avatar_url": null,
+                "top_posts": []
+            }
+        }
+    ],
+    "all_matches": [
+        {
+            "platform": "Medium",
+            "category": "social_presence",
+            "url": "https://medium.com/@devendraprajapt42",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mastodon",
+            "category": "social_presence",
+            "url": "https://mastodon.cloud/@devendraprajapt42",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pinterest",
+            "category": "social_presence",
+            "url": "https://www.pinterest.com/devendraprajapt42/",
+            "status": "Verified Profile Account Located",
+            "enriched_data": {
+                "bio": "",
+                "avatar_url": null,
+                "local_avatar_path": null
+            }
+        },
+        {
+            "platform": "Baby",
+            "category": "social_presence",
+            "url": "https://www.baby.ru/u/devendraprajapt42",
+            "status": "Verified Profile Account Located"
+        }
+    ]
+}

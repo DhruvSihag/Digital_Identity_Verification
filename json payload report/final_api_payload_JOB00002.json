@@ -1,0 +1,1866 @@
+{
+    "status": "success",
+    "inputs_processed": [
+        "devendra"
+    ],
+    "email_results": [],
+    "phone_results": [],
+    "username_results": [
+        {
+            "status": "success",
+            "input_type": "username",
+            "target": "devendra",
+            "metrics": {
+                "total_profiles_located": 151
+            },
+            "matches": [
+                {
+                    "platform": "About",
+                    "category": "social_presence",
+                    "url": "https://about.me/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Anilist",
+                    "category": "social_presence",
+                    "url": "https://anilist.co/user/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Atcoder",
+                    "category": "social_presence",
+                    "url": "https://atcoder.jp/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Vjudge",
+                    "category": "social_presence",
+                    "url": "https://VJudge.net/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Audiojungle",
+                    "category": "social_presence",
+                    "url": "https://audiojungle.net/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Bsky",
+                    "category": "social_presence",
+                    "url": "https://bsky.app/profile/devendra.bsky.social",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Bookcrossing",
+                    "category": "social_presence",
+                    "url": "https://www.bookcrossing.com/mybookshelf/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Boardgamegeek",
+                    "category": "social_presence",
+                    "url": "https://boardgamegeek.com/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Community",
+                    "category": "social_presence",
+                    "url": "https://community.brave.com/u/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Bugcrowd",
+                    "category": "social_presence",
+                    "url": "https://bugcrowd.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Buymeacoff",
+                    "category": "social_presence",
+                    "url": "https://buymeacoff.ee/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Buzzfeed",
+                    "category": "social_presence",
+                    "url": "https://buzzfeed.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Cgtrader",
+                    "category": "social_presence",
+                    "url": "https://www.cgtrader.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.carrd.co/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Chess",
+                    "category": "social_presence",
+                    "url": "https://www.chess.com/member/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Clozemaster",
+                    "category": "social_presence",
+                    "url": "https://www.clozemaster.com/players/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Clubhouse",
+                    "category": "social_presence",
+                    "url": "https://www.clubhouse.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Codeberg",
+                    "category": "social_presence",
+                    "url": "https://codeberg.org/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Codecademy",
+                    "category": "social_presence",
+                    "url": "https://www.codecademy.com/profiles/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Codechef",
+                    "category": "social_presence",
+                    "url": "https://www.codechef.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Codeforces",
+                    "category": "social_presence",
+                    "url": "https://codeforces.com/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Coderwall",
+                    "category": "social_presence",
+                    "url": "https://coderwall.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Colourlovers",
+                    "category": "social_presence",
+                    "url": "https://www.colourlovers.com/lover/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Coroflot",
+                    "category": "social_presence",
+                    "url": "https://www.coroflot.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Cplusplus",
+                    "category": "social_presence",
+                    "url": "https://cplusplus.com/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Cracked",
+                    "category": "social_presence",
+                    "url": "https://cracked.ax/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Credly",
+                    "category": "social_presence",
+                    "url": "https://www.credly.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Crowdin",
+                    "category": "social_presence",
+                    "url": "https://crowdin.com/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Dev",
+                    "category": "social_presence",
+                    "url": "https://dev.to/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Dailymotion",
+                    "category": "social_presence",
+                    "url": "https://www.dailymotion.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Discord",
+                    "category": "social_presence",
+                    "url": "https://discord.com",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Discuss",
+                    "category": "social_presence",
+                    "url": "https://discuss.elastic.co/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Disqus",
+                    "category": "social_presence",
+                    "url": "https://disqus.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Hub",
+                    "category": "social_presence",
+                    "url": "https://hub.docker.com/u/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Dribbble",
+                    "category": "social_presence",
+                    "url": "https://dribbble.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Duolingo",
+                    "category": "social_presence",
+                    "url": "https://www.duolingo.com/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "My",
+                    "category": "social_presence",
+                    "url": "https://my.flightradar24.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Flipboard",
+                    "category": "social_presence",
+                    "url": "https://flipboard.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Freelancer",
+                    "category": "social_presence",
+                    "url": "https://www.freelancer.com/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Freesound",
+                    "category": "social_presence",
+                    "url": "https://freesound.org/people/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Gaiaonline",
+                    "category": "social_presence",
+                    "url": "https://www.gaiaonline.com/profiles/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Genius",
+                    "category": "social_presence",
+                    "url": "https://genius.com/artists/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Genius",
+                    "category": "social_presence",
+                    "url": "https://genius.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.gitbook.io/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Github",
+                    "category": "social_presence",
+                    "url": "https://www.github.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Warframe",
+                    "category": "social_presence",
+                    "url": "https://warframe.market/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Gitlab",
+                    "category": "social_presence",
+                    "url": "https://gitlab.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Goodreads",
+                    "category": "social_presence",
+                    "url": "https://www.goodreads.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Plugins",
+                    "category": "social_presence",
+                    "url": "https://plugins.gradle.org/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Gumroad",
+                    "category": "social_presence",
+                    "url": "https://www.gumroad.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Hackaday",
+                    "category": "social_presence",
+                    "url": "https://hackaday.io/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Hackerearth",
+                    "category": "social_presence",
+                    "url": "https://hackerearth.com/@devendra",
+                    "status": "Verified Profile Account Located",
+                    "enriched_data": {
+                        "bio": "",
+                        "avatar_url": null,
+                        "local_avatar_path": null
+                    }
+                },
+                {
+                    "platform": "Hive",
+                    "category": "social_presence",
+                    "url": "https://hive.blog/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Holopin",
+                    "category": "social_presence",
+                    "url": "https://holopin.io/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Houzz",
+                    "category": "social_presence",
+                    "url": "https://houzz.com/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Cavalier",
+                    "category": "social_presence",
+                    "url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Huggingface",
+                    "category": "social_presence",
+                    "url": "https://huggingface.co/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Ifttt",
+                    "category": "social_presence",
+                    "url": "https://www.ifttt.com/p/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Imgur",
+                    "category": "social_presence",
+                    "url": "https://imgur.com/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Issuu",
+                    "category": "social_presence",
+                    "url": "https://issuu.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.itch.io/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.jimdosite.com",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Discourse",
+                    "category": "social_presence",
+                    "url": "https://discourse.joplinapp.org/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Kaskus",
+                    "category": "social_presence",
+                    "url": "https://www.kaskus.co.id/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Keybase",
+                    "category": "social_presence",
+                    "url": "https://keybase.io/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Kick",
+                    "category": "social_presence",
+                    "url": "https://kick.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Laracasts",
+                    "category": "social_presence",
+                    "url": "https://laracasts.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Launchpad",
+                    "category": "social_presence",
+                    "url": "https://launchpad.net/~devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Lesswrong",
+                    "category": "social_presence",
+                    "url": "https://www.lesswrong.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Lichess",
+                    "category": "social_presence",
+                    "url": "https://lichess.org/@/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Linktr",
+                    "category": "social_presence",
+                    "url": "https://linktr.ee/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Medium",
+                    "category": "social_presence",
+                    "url": "https://medium.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Memrise",
+                    "category": "social_presence",
+                    "url": "https://www.memrise.com/user/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Api",
+                    "category": "social_presence",
+                    "url": "https://api.mojang.com/users/profiles/minecraft/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mixcloud",
+                    "category": "social_presence",
+                    "url": "https://www.mixcloud.com/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Monkeytype",
+                    "category": "social_presence",
+                    "url": "https://monkeytype.com/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Myanimelist",
+                    "category": "social_presence",
+                    "url": "https://myanimelist.net/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mydramalist",
+                    "category": "social_presence",
+                    "url": "https://www.mydramalist.com/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Blog",
+                    "category": "social_presence",
+                    "url": "https://blog.naver.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Nitrotype",
+                    "category": "social_presence",
+                    "url": "https://www.nitrotype.com/racer/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Observablehq",
+                    "category": "social_presence",
+                    "url": "https://observablehq.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Opencollective",
+                    "category": "social_presence",
+                    "url": "https://opencollective.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Openstreetmap",
+                    "category": "social_presence",
+                    "url": "https://www.openstreetmap.org/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Odysee",
+                    "category": "social_presence",
+                    "url": "https://odysee.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Forums",
+                    "category": "social_presence",
+                    "url": "https://forums.pcgamer.com/members/?username=devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Packagist",
+                    "category": "social_presence",
+                    "url": "https://packagist.org/packages/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pastebin",
+                    "category": "social_presence",
+                    "url": "https://pastebin.com/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Patreon",
+                    "category": "social_presence",
+                    "url": "https://www.patreon.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pentesterlab",
+                    "category": "social_presence",
+                    "url": "https://pentesterlab.com/profile/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Periscope",
+                    "category": "social_presence",
+                    "url": "https://www.periscope.tv/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pixelfed",
+                    "category": "social_presence",
+                    "url": "https://pixelfed.social/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Plurk",
+                    "category": "social_presence",
+                    "url": "https://www.plurk.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pokemonshowdown",
+                    "category": "social_presence",
+                    "url": "https://pokemonshowdown.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Polarsteps",
+                    "category": "social_presence",
+                    "url": "https://polarsteps.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Producthunt",
+                    "category": "social_presence",
+                    "url": "https://www.producthunt.com/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Redbubble",
+                    "category": "social_presence",
+                    "url": "https://www.redbubble.com/people/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Rumble",
+                    "category": "social_presence",
+                    "url": "https://rumble.com/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Swapd",
+                    "category": "social_presence",
+                    "url": "https://swapd.co/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Scratch",
+                    "category": "social_presence",
+                    "url": "https://scratch.mit.edu/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Sketchfab",
+                    "category": "social_presence",
+                    "url": "https://sketchfab.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.slack.com",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Slides",
+                    "category": "social_presence",
+                    "url": "https://slides.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Snapchat",
+                    "category": "social_presence",
+                    "url": "https://www.snapchat.com/add/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Sooplive",
+                    "category": "social_presence",
+                    "url": "https://www.sooplive.co.kr/station/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Soundcloud",
+                    "category": "social_presence",
+                    "url": "https://soundcloud.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Speakerdeck",
+                    "category": "social_presence",
+                    "url": "https://speakerdeck.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Robertsspaceindustries",
+                    "category": "social_presence",
+                    "url": "https://robertsspaceindustries.com/citizens/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Steamcommunity",
+                    "category": "social_presence",
+                    "url": "https://steamcommunity.com/id/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Strava",
+                    "category": "social_presence",
+                    "url": "https://www.strava.com/athletes/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.substack.com/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Themoviedb",
+                    "category": "social_presence",
+                    "url": "https://www.themoviedb.org/u/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.mitiendanube.com/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Topmate",
+                    "category": "social_presence",
+                    "url": "https://topmate.io/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "T",
+                    "category": "social_presence",
+                    "url": "https://t.me/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Tenor",
+                    "category": "social_presence",
+                    "url": "https://tenor.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Themeforest",
+                    "category": "social_presence",
+                    "url": "https://themeforest.net/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Tradingview",
+                    "category": "social_presence",
+                    "url": "https://www.tradingview.com/u/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Trello",
+                    "category": "social_presence",
+                    "url": "https://trello.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Untappd",
+                    "category": "social_presence",
+                    "url": "https://untappd.com/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Vk",
+                    "category": "social_presence",
+                    "url": "https://vk.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Vero",
+                    "category": "social_presence",
+                    "url": "https://vero.co/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Virustotal",
+                    "category": "social_presence",
+                    "url": "https://www.virustotal.com/gui/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Warriorforum",
+                    "category": "social_presence",
+                    "url": "https://www.warriorforum.com/members/devendra.html",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.weebly.com/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Wikidot",
+                    "category": "social_presence",
+                    "url": "http://www.wikidot.com/user:info/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "En",
+                    "category": "social_presence",
+                    "url": "https://en.wikipedia.org/wiki/Special:CentralAuth/devendra?uselang=qqx",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devendra",
+                    "category": "social_presence",
+                    "url": "https://devendra.wordpress.com/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Profiles",
+                    "category": "social_presence",
+                    "url": "https://profiles.wordpress.org/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Wordnik",
+                    "category": "social_presence",
+                    "url": "https://www.wordnik.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Xboxgamertag",
+                    "category": "social_presence",
+                    "url": "https://xboxgamertag.com/search/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Younow",
+                    "category": "social_presence",
+                    "url": "https://www.younow.com/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Couchsurfing",
+                    "category": "social_presence",
+                    "url": "https://www.couchsurfing.com/people/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Dating",
+                    "category": "social_presence",
+                    "url": "http://dating.ru/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Devrant",
+                    "category": "social_presence",
+                    "url": "https://devrant.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Fixya",
+                    "category": "social_presence",
+                    "url": "https://www.fixya.com/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Geocaching",
+                    "category": "social_presence",
+                    "url": "https://www.geocaching.com/p/default.aspx?u=devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Habr",
+                    "category": "social_presence",
+                    "url": "https://habr.com/ru/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Hackster",
+                    "category": "social_presence",
+                    "url": "https://www.hackster.io/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Jeuxvideo",
+                    "category": "social_presence",
+                    "url": "https://www.jeuxvideo.com/profil/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Ko-fi",
+                    "category": "social_presence",
+                    "url": "https://ko-fi.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Kwork",
+                    "category": "social_presence",
+                    "url": "https://kwork.ru/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Last",
+                    "category": "social_presence",
+                    "url": "https://last.fm/user/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mastodon",
+                    "category": "social_presence",
+                    "url": "https://mastodon.cloud/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Mastodon",
+                    "category": "social_presence",
+                    "url": "https://mastodon.social/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Minds",
+                    "category": "social_presence",
+                    "url": "https://www.minds.com/devendra/",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Note",
+                    "category": "social_presence",
+                    "url": "https://note.com/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Osu",
+                    "category": "social_presence",
+                    "url": "https://osu.ppy.sh/users/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pikabu",
+                    "category": "social_presence",
+                    "url": "https://pikabu.ru/@devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Pinterest",
+                    "category": "social_presence",
+                    "url": "https://www.pinterest.com/devendra/",
+                    "status": "Verified Profile Account Located",
+                    "enriched_data": {
+                        "bio": "",
+                        "avatar_url": null,
+                        "local_avatar_path": null
+                    }
+                },
+                {
+                    "platform": "Write",
+                    "category": "social_presence",
+                    "url": "https://write.as/devendra",
+                    "status": "Verified Profile Account Located"
+                },
+                {
+                    "platform": "Baby",
+                    "category": "social_presence",
+                    "url": "https://www.baby.ru/u/devendra",
+                    "status": "Verified Profile Account Located"
+                }
+            ]
+        }
+    ],
+    "instagram_results": [
+        {
+            "target_username": "devendra",
+            "platform": "Instagram",
+            "status": "Target Profile Analysis",
+            "extracted_data": {
+                "bio": null,
+                "avatar_url": null,
+                "top_posts": []
+            }
+        }
+    ],
+    "all_matches": [
+        {
+            "platform": "About",
+            "category": "social_presence",
+            "url": "https://about.me/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Anilist",
+            "category": "social_presence",
+            "url": "https://anilist.co/user/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Atcoder",
+            "category": "social_presence",
+            "url": "https://atcoder.jp/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Vjudge",
+            "category": "social_presence",
+            "url": "https://VJudge.net/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Audiojungle",
+            "category": "social_presence",
+            "url": "https://audiojungle.net/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Bsky",
+            "category": "social_presence",
+            "url": "https://bsky.app/profile/devendra.bsky.social",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Bookcrossing",
+            "category": "social_presence",
+            "url": "https://www.bookcrossing.com/mybookshelf/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Boardgamegeek",
+            "category": "social_presence",
+            "url": "https://boardgamegeek.com/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Community",
+            "category": "social_presence",
+            "url": "https://community.brave.com/u/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Bugcrowd",
+            "category": "social_presence",
+            "url": "https://bugcrowd.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Buymeacoff",
+            "category": "social_presence",
+            "url": "https://buymeacoff.ee/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Buzzfeed",
+            "category": "social_presence",
+            "url": "https://buzzfeed.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Cgtrader",
+            "category": "social_presence",
+            "url": "https://www.cgtrader.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.carrd.co/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Chess",
+            "category": "social_presence",
+            "url": "https://www.chess.com/member/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Clozemaster",
+            "category": "social_presence",
+            "url": "https://www.clozemaster.com/players/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Clubhouse",
+            "category": "social_presence",
+            "url": "https://www.clubhouse.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Codeberg",
+            "category": "social_presence",
+            "url": "https://codeberg.org/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Codecademy",
+            "category": "social_presence",
+            "url": "https://www.codecademy.com/profiles/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Codechef",
+            "category": "social_presence",
+            "url": "https://www.codechef.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Codeforces",
+            "category": "social_presence",
+            "url": "https://codeforces.com/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Coderwall",
+            "category": "social_presence",
+            "url": "https://coderwall.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Colourlovers",
+            "category": "social_presence",
+            "url": "https://www.colourlovers.com/lover/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Coroflot",
+            "category": "social_presence",
+            "url": "https://www.coroflot.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Cplusplus",
+            "category": "social_presence",
+            "url": "https://cplusplus.com/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Cracked",
+            "category": "social_presence",
+            "url": "https://cracked.ax/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Credly",
+            "category": "social_presence",
+            "url": "https://www.credly.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Crowdin",
+            "category": "social_presence",
+            "url": "https://crowdin.com/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Dev",
+            "category": "social_presence",
+            "url": "https://dev.to/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Dailymotion",
+            "category": "social_presence",
+            "url": "https://www.dailymotion.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Discord",
+            "category": "social_presence",
+            "url": "https://discord.com",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Discuss",
+            "category": "social_presence",
+            "url": "https://discuss.elastic.co/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Disqus",
+            "category": "social_presence",
+            "url": "https://disqus.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Hub",
+            "category": "social_presence",
+            "url": "https://hub.docker.com/u/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Dribbble",
+            "category": "social_presence",
+            "url": "https://dribbble.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Duolingo",
+            "category": "social_presence",
+            "url": "https://www.duolingo.com/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "My",
+            "category": "social_presence",
+            "url": "https://my.flightradar24.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Flipboard",
+            "category": "social_presence",
+            "url": "https://flipboard.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Freelancer",
+            "category": "social_presence",
+            "url": "https://www.freelancer.com/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Freesound",
+            "category": "social_presence",
+            "url": "https://freesound.org/people/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Gaiaonline",
+            "category": "social_presence",
+            "url": "https://www.gaiaonline.com/profiles/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Genius",
+            "category": "social_presence",
+            "url": "https://genius.com/artists/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Genius",
+            "category": "social_presence",
+            "url": "https://genius.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.gitbook.io/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Github",
+            "category": "social_presence",
+            "url": "https://www.github.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Warframe",
+            "category": "social_presence",
+            "url": "https://warframe.market/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Gitlab",
+            "category": "social_presence",
+            "url": "https://gitlab.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Goodreads",
+            "category": "social_presence",
+            "url": "https://www.goodreads.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Plugins",
+            "category": "social_presence",
+            "url": "https://plugins.gradle.org/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Gumroad",
+            "category": "social_presence",
+            "url": "https://www.gumroad.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Hackaday",
+            "category": "social_presence",
+            "url": "https://hackaday.io/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Hackerearth",
+            "category": "social_presence",
+            "url": "https://hackerearth.com/@devendra",
+            "status": "Verified Profile Account Located",
+            "enriched_data": {
+                "bio": "",
+                "avatar_url": null,
+                "local_avatar_path": null
+            }
+        },
+        {
+            "platform": "Hive",
+            "category": "social_presence",
+            "url": "https://hive.blog/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Holopin",
+            "category": "social_presence",
+            "url": "https://holopin.io/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Houzz",
+            "category": "social_presence",
+            "url": "https://houzz.com/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Cavalier",
+            "category": "social_presence",
+            "url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Huggingface",
+            "category": "social_presence",
+            "url": "https://huggingface.co/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Ifttt",
+            "category": "social_presence",
+            "url": "https://www.ifttt.com/p/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Imgur",
+            "category": "social_presence",
+            "url": "https://imgur.com/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Issuu",
+            "category": "social_presence",
+            "url": "https://issuu.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.itch.io/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.jimdosite.com",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Discourse",
+            "category": "social_presence",
+            "url": "https://discourse.joplinapp.org/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Kaskus",
+            "category": "social_presence",
+            "url": "https://www.kaskus.co.id/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Keybase",
+            "category": "social_presence",
+            "url": "https://keybase.io/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Kick",
+            "category": "social_presence",
+            "url": "https://kick.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Laracasts",
+            "category": "social_presence",
+            "url": "https://laracasts.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Launchpad",
+            "category": "social_presence",
+            "url": "https://launchpad.net/~devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Lesswrong",
+            "category": "social_presence",
+            "url": "https://www.lesswrong.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Lichess",
+            "category": "social_presence",
+            "url": "https://lichess.org/@/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Linktr",
+            "category": "social_presence",
+            "url": "https://linktr.ee/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Medium",
+            "category": "social_presence",
+            "url": "https://medium.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Memrise",
+            "category": "social_presence",
+            "url": "https://www.memrise.com/user/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Api",
+            "category": "social_presence",
+            "url": "https://api.mojang.com/users/profiles/minecraft/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mixcloud",
+            "category": "social_presence",
+            "url": "https://www.mixcloud.com/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Monkeytype",
+            "category": "social_presence",
+            "url": "https://monkeytype.com/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Myanimelist",
+            "category": "social_presence",
+            "url": "https://myanimelist.net/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mydramalist",
+            "category": "social_presence",
+            "url": "https://www.mydramalist.com/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Blog",
+            "category": "social_presence",
+            "url": "https://blog.naver.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Nitrotype",
+            "category": "social_presence",
+            "url": "https://www.nitrotype.com/racer/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Observablehq",
+            "category": "social_presence",
+            "url": "https://observablehq.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Opencollective",
+            "category": "social_presence",
+            "url": "https://opencollective.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Openstreetmap",
+            "category": "social_presence",
+            "url": "https://www.openstreetmap.org/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Odysee",
+            "category": "social_presence",
+            "url": "https://odysee.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Forums",
+            "category": "social_presence",
+            "url": "https://forums.pcgamer.com/members/?username=devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Packagist",
+            "category": "social_presence",
+            "url": "https://packagist.org/packages/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pastebin",
+            "category": "social_presence",
+            "url": "https://pastebin.com/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Patreon",
+            "category": "social_presence",
+            "url": "https://www.patreon.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pentesterlab",
+            "category": "social_presence",
+            "url": "https://pentesterlab.com/profile/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Periscope",
+            "category": "social_presence",
+            "url": "https://www.periscope.tv/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pixelfed",
+            "category": "social_presence",
+            "url": "https://pixelfed.social/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Plurk",
+            "category": "social_presence",
+            "url": "https://www.plurk.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pokemonshowdown",
+            "category": "social_presence",
+            "url": "https://pokemonshowdown.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Polarsteps",
+            "category": "social_presence",
+            "url": "https://polarsteps.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Producthunt",
+            "category": "social_presence",
+            "url": "https://www.producthunt.com/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Redbubble",
+            "category": "social_presence",
+            "url": "https://www.redbubble.com/people/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Rumble",
+            "category": "social_presence",
+            "url": "https://rumble.com/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Swapd",
+            "category": "social_presence",
+            "url": "https://swapd.co/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Scratch",
+            "category": "social_presence",
+            "url": "https://scratch.mit.edu/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Sketchfab",
+            "category": "social_presence",
+            "url": "https://sketchfab.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.slack.com",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Slides",
+            "category": "social_presence",
+            "url": "https://slides.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Snapchat",
+            "category": "social_presence",
+            "url": "https://www.snapchat.com/add/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Sooplive",
+            "category": "social_presence",
+            "url": "https://www.sooplive.co.kr/station/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Soundcloud",
+            "category": "social_presence",
+            "url": "https://soundcloud.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Speakerdeck",
+            "category": "social_presence",
+            "url": "https://speakerdeck.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Robertsspaceindustries",
+            "category": "social_presence",
+            "url": "https://robertsspaceindustries.com/citizens/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Steamcommunity",
+            "category": "social_presence",
+            "url": "https://steamcommunity.com/id/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Strava",
+            "category": "social_presence",
+            "url": "https://www.strava.com/athletes/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.substack.com/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Themoviedb",
+            "category": "social_presence",
+            "url": "https://www.themoviedb.org/u/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.mitiendanube.com/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Topmate",
+            "category": "social_presence",
+            "url": "https://topmate.io/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "T",
+            "category": "social_presence",
+            "url": "https://t.me/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Tenor",
+            "category": "social_presence",
+            "url": "https://tenor.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Themeforest",
+            "category": "social_presence",
+            "url": "https://themeforest.net/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Tradingview",
+            "category": "social_presence",
+            "url": "https://www.tradingview.com/u/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Trello",
+            "category": "social_presence",
+            "url": "https://trello.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Untappd",
+            "category": "social_presence",
+            "url": "https://untappd.com/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Vk",
+            "category": "social_presence",
+            "url": "https://vk.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Vero",
+            "category": "social_presence",
+            "url": "https://vero.co/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Virustotal",
+            "category": "social_presence",
+            "url": "https://www.virustotal.com/gui/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Warriorforum",
+            "category": "social_presence",
+            "url": "https://www.warriorforum.com/members/devendra.html",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.weebly.com/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Wikidot",
+            "category": "social_presence",
+            "url": "http://www.wikidot.com/user:info/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "En",
+            "category": "social_presence",
+            "url": "https://en.wikipedia.org/wiki/Special:CentralAuth/devendra?uselang=qqx",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devendra",
+            "category": "social_presence",
+            "url": "https://devendra.wordpress.com/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Profiles",
+            "category": "social_presence",
+            "url": "https://profiles.wordpress.org/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Wordnik",
+            "category": "social_presence",
+            "url": "https://www.wordnik.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Xboxgamertag",
+            "category": "social_presence",
+            "url": "https://xboxgamertag.com/search/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Younow",
+            "category": "social_presence",
+            "url": "https://www.younow.com/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Couchsurfing",
+            "category": "social_presence",
+            "url": "https://www.couchsurfing.com/people/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Dating",
+            "category": "social_presence",
+            "url": "http://dating.ru/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Devrant",
+            "category": "social_presence",
+            "url": "https://devrant.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Fixya",
+            "category": "social_presence",
+            "url": "https://www.fixya.com/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Geocaching",
+            "category": "social_presence",
+            "url": "https://www.geocaching.com/p/default.aspx?u=devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Habr",
+            "category": "social_presence",
+            "url": "https://habr.com/ru/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Hackster",
+            "category": "social_presence",
+            "url": "https://www.hackster.io/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Jeuxvideo",
+            "category": "social_presence",
+            "url": "https://www.jeuxvideo.com/profil/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Ko-fi",
+            "category": "social_presence",
+            "url": "https://ko-fi.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Kwork",
+            "category": "social_presence",
+            "url": "https://kwork.ru/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Last",
+            "category": "social_presence",
+            "url": "https://last.fm/user/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mastodon",
+            "category": "social_presence",
+            "url": "https://mastodon.cloud/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Mastodon",
+            "category": "social_presence",
+            "url": "https://mastodon.social/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Minds",
+            "category": "social_presence",
+            "url": "https://www.minds.com/devendra/",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Note",
+            "category": "social_presence",
+            "url": "https://note.com/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Osu",
+            "category": "social_presence",
+            "url": "https://osu.ppy.sh/users/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pikabu",
+            "category": "social_presence",
+            "url": "https://pikabu.ru/@devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Pinterest",
+            "category": "social_presence",
+            "url": "https://www.pinterest.com/devendra/",
+            "status": "Verified Profile Account Located",
+            "enriched_data": {
+                "bio": "",
+                "avatar_url": null,
+                "local_avatar_path": null
+            }
+        },
+        {
+            "platform": "Write",
+            "category": "social_presence",
+            "url": "https://write.as/devendra",
+            "status": "Verified Profile Account Located"
+        },
+        {
+            "platform": "Baby",
+            "category": "social_presence",
+            "url": "https://www.baby.ru/u/devendra",
+            "status": "Verified Profile Account Located"
+        }
+    ]
+}
