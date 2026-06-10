@@ -1,0 +1,12 @@
+2026-06-10 16:29:00.225 Uvicorn server started on 0.0.0.0:8502
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://10.5.51.163:8502
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            

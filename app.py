@@ -12,6 +12,7 @@ import requests
 import os
 import time
 from dotenv import load_dotenv
+import uuid
 
 # Load our secret environment variables (like API keys) into memory.
 load_dotenv()
@@ -76,8 +77,9 @@ if st.button("Launch API Request", type="primary"):
         targets = [t.strip() for t in user_input.split(",") if t.strip()]
         
         # Phase 1: Fire the Web Request to FastAPI
-        # We create a dictionary (payload) containing our list of targets.
-        payload = {"targets": targets}
+        # We create a dictionary (payload) containing our list of targets and a job_id.
+        job_id = str(uuid.uuid4())
+        payload = {"job_id": job_id, "targets": targets}
         
         try:
             # We show a spinning wheel on the screen to let the user know we are connecting.

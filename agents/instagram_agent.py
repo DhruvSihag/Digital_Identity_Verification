@@ -26,6 +26,23 @@ from config import Config
 # Initialize the logger for this file.
 logger = get_logger(__name__)
 
+
+def _truncate_prompt(mission: str) -> str:
+    """Truncate long mission prompts to avoid model context-window rejections.
+
+    Keeps a head and tail of the original prompt and inserts a clear marker where the
+    middle was removed. The limit is controlled by `Config.LLM_MAX_PROMPT_CHARS`.
+    """
+    max_chars = getattr(Config, "LLM_MAX_PROMPT_CHARS", 2000)
+    if not mission or len(mission) <= max_chars:
+        return mission
+
+    head_len = int(max_chars * 0.25)
+    tail_len = int(max_chars * 0.65)
+    head = mission[:head_len]
+    tail = mission[-tail_len:]
+    return head + "\n\n...PROMPT_TRUNCATED...\n\n" + tail
+
 # 🛠️ THE ARCHITECTURE FIX: 
 # The browser-use library needs to know what AI provider we are using.
 # LangChain doesn't provide this by default, so we manually inject the word "openai".
@@ -64,15 +81,19 @@ class InstagramAgent:
         This function controls the web browser to extract data specifically from Instagram.
         It runs asynchronously so it doesn't block the rest of the application.
         """
-        # Safety check: ensure the API key exists before trying to run the AI.
-        if not self.api_key:
+        # Safety check: ensure API key exists for OpenAI backend only.
+        if Config.LLM_BACKEND == "openai" and not self.api_key:
             return {"error": "OPENAI_API_KEY is missing from your .env file."}
 
         # Log our intended target.
         logger.info(f"Targeting Instagram profile with AI Agent: {target_username}")
         
-        # Step 1: Create the AI brain using our patched wrapper class.
-        llm = PatchedChatOpenAI(model=Config.OPENAI_MODEL, api_key=self.api_key)
+        # Step 1: Create the AI brain. Use local Ollama Qwen when configured.
+        if Config.LLM_BACKEND == "ollama":
+            from browser_use import ChatOllama
+            llm = ChatOllama(model=Config.QWEN_MODEL, host=Config.OLLAMA_HOST)
+        else:
+            llm = PatchedChatOpenAI(model=Config.OPENAI_MODEL, api_key=self.api_key)
         
         # Step 2: Configure and turn on the personal Chrome browser.
         # This is critical for Instagram because it requires a logged-in session to view profiles properly.
@@ -117,8 +138,26 @@ class InstagramAgent:
 
         try:
             # Step 5: Start the Agent and let it browse the page.
+            # Truncate mission if necessary to avoid model context rejections.
+            mission = _truncate_prompt(mission)
+
+            # Configure a lightweight fallback LLM (Gemma) to recover from errors.
+            fallback_llm = None
+            if Config.LLM_BACKEND == "ollama":
+                try:
+                    from browser_use import ChatOllama
+                    # Use Gemma as fallback for lightweight error recovery
+                    fallback_llm = ChatOllama(model=Config.QWEN_FALLBACK_MODEL, host=Config.OLLAMA_HOST)
+                except Exception:
+                    fallback_llm = None
+            else:
+                fallback_llm = PatchedChatOpenAI(model=Config.OPENAI_MODEL, api_key=self.api_key)
+
             # We limit it to AGENT_MAX_STEPS actions, but explicitly forbid Javascript loops.
-            agent = Agent(task=mission, llm=llm, browser=browser)
+            # Enable vision/multimodal so the LLM can process screenshots and page content.
+            # Fallback LLM provides recovery if primary model rejects requests.
+            # NOTE: Gemma 3 has only 4KB context window, so vision is disabled to fit prompts.
+            agent = Agent(task=mission, llm=llm, browser=browser, fallback_llm=fallback_llm, use_vision=False)
             history = await agent.run(max_steps=Config.AGENT_MAX_STEPS)
             
             # Step 6: Get the text output from the agent's history.

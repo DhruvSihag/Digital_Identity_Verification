@@ -26,6 +26,29 @@ from config import Config
 # Initialize the logging tool so we can print status messages for this file.
 logger = get_logger(__name__)
 
+
+def _truncate_prompt(mission: str) -> str:
+    """Truncate long mission prompts to avoid model context-window rejections.
+
+    Keeps a head and tail of the original prompt and inserts a clear marker where the
+    middle was removed. The limit is controlled by `Config.LLM_MAX_PROMPT_CHARS`.
+    """
+    max_chars = getattr(Config, "LLM_MAX_PROMPT_CHARS", 2000)
+    if not mission:
+        return mission
+
+    # Collapse long whitespace to reduce token overhead.
+    mission = re.sub(r"\s+", " ", mission).strip()
+    if len(mission) <= max_chars:
+        return mission
+
+    # Keep a head and tail to preserve instruction intent, insert explicit truncation marker.
+    head_len = int(max_chars * 0.25)
+    tail_len = int(max_chars * 0.65)
+    head = mission[:head_len]
+    tail = mission[-tail_len:]
+    return head + "\n\n...PROMPT_TRUNCATED...\n\n" + tail
+
 # 🛠️ THE ARCHITECTURE FIX: 
 # The browser-use library expects a "provider" property (like saying "I am using OpenAI").
 # LangChain doesn't have it by default.
@@ -67,15 +90,20 @@ class UrlAgent:
         This is the actual internal mechanism that controls the mouse and keyboard.
         It runs "asynchronously" meaning it can do multiple things without freezing our server.
         """
-        # Safety Check: If we forgot to put our API key in the .env file, stop right here.
-        if not self.api_key:
+        # Safety Check: If using OpenAI backend ensure API key exists.
+        if Config.LLM_BACKEND == "openai" and not self.api_key:
             return {"bio": None, "avatar_url": None, "error": "OPENAI_API_KEY is missing from your .env file."}
 
         # Log that we are about to start looking at a specific webpage.
         logger.info(f"Targeting profile link with AI Agent: {target_url}")
         
-        # Step 1: Initialize the AI brain using our NEW custom wrapper class.
-        llm = PatchedChatOpenAI(model=Config.OPENAI_MODEL, api_key=self.api_key)
+        # Step 1: Initialize the AI brain. Support either OpenAI or local Ollama (Qwen).
+        if Config.LLM_BACKEND == "ollama":
+            from browser_use import ChatOllama
+            llm = ChatOllama(model=Config.QWEN_MODEL, host=Config.OLLAMA_HOST)
+        else:
+            # Default to OpenAI-compatible wrapper
+            llm = PatchedChatOpenAI(model=Config.OPENAI_MODEL, api_key=self.api_key)
         
         # Step 2: Configure and turn on your personal Chrome browser.
         # We tell it exactly where Chrome is installed on the computer.
@@ -116,8 +144,26 @@ class UrlAgent:
         """
 
         try:
-            # Step 4: Create the Agent. We give it the mission, the AI brain (llm), and the browser to control.
-            agent = Agent(task=mission, llm=llm, browser=browser)
+            # Step 4: Create the Agent. Truncate mission if it's too long for the configured LLM.
+            mission = _truncate_prompt(mission)
+
+            # Configure a lightweight fallback LLM (Gemma 3) to use if the primary model rejects.
+            fallback_llm = None
+            if Config.LLM_BACKEND == "ollama":
+                try:
+                    from browser_use import ChatOllama
+                    # Use Gemma 3 as fallback for lightweight error recovery
+                    fallback_llm = ChatOllama(model=Config.QWEN_FALLBACK_MODEL, host=Config.OLLAMA_HOST)
+                except Exception:
+                    fallback_llm = None
+            else:
+                # Use OpenAI wrapper as a fallback when Ollama is not the primary backend.
+                fallback_llm = PatchedChatOpenAI(model=Config.OPENAI_MODEL, api_key=self.api_key)
+
+            # Enable vision/multimodal so the LLM can process screenshots and page content.
+            # Fallback LLM provides recovery if primary model rejects requests.
+            # NOTE: Gemma 3 has only 4KB context window, so vision is disabled to fit prompts.
+            agent = Agent(task=mission, llm=llm, browser=browser, fallback_llm=fallback_llm, use_vision=False)
 
             # Step 5: Tell the agent to hit 'Go' and wait for it to finish browsing.
             # We set max_steps to AGENT_MAX_STEPS as configured, but guard against overthinking via the prompt.

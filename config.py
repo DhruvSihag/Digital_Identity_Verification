@@ -27,6 +27,12 @@ class Config:
     
     # AI Config
     OPENAI_MODEL: str = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+    # Which LLM backend to use: 'openai' or 'ollama'
+    LLM_BACKEND: str = os.getenv("LLM_BACKEND", "openai")
+    # If using Ollama locally, the model name (e.g. qwen-3) and host
+    QWEN_MODEL: str = os.getenv("QWEN_MODEL", "qwen-3")
+    QWEN_FALLBACK_MODEL: str = os.getenv("QWEN_FALLBACK_MODEL", "gemma3:latest")
+    OLLAMA_HOST: str = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434")
     
     # Chrome Profile Configurations
     CHROME_EXECUTABLE_PATH: str = os.getenv("CHROME_EXECUTABLE_PATH", r"C:\Users\aadit\AppData\Local\Google\Chrome\Application\chrome.exe")
@@ -37,3 +43,7 @@ class Config:
     WEBHOOK_TIMEOUT: int = int(os.getenv("WEBHOOK_TIMEOUT", "15"))
     SHERLOCK_TIMEOUT: str = os.getenv("SHERLOCK_TIMEOUT", "5")
     AGENT_MAX_STEPS: int = int(os.getenv("AGENT_MAX_STEPS", "15"))
+    # Maximum prompt length (characters) to send to local LLMs. Truncate longer prompts to avoid
+    # context-window rejections from models with smaller context sizes.
+    # Mistral has 8K context window, so we can use a moderate limit of 2000 chars.
+    LLM_MAX_PROMPT_CHARS: int = int(os.getenv("LLM_MAX_PROMPT_CHARS", "2000"))

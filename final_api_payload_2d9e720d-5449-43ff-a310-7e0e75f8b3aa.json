@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "inputs_processed": [
+        "dhruvsihag"
+    ],
+    "email_results": [],
+    "phone_results": [],
+    "username_results": [
+        {
+            "status": "error",
+            "message": "Global thread collection failure: [Errno 2] No such file or directory: 'sherlock'"
+        }
+    ],
+    "instagram_results": [
+        {
+            "target_username": "dhruvsihag",
+            "platform": "Instagram",
+            "status": "Target Profile Analysis",
+            "extracted_data": {
+                "bio": "no profile available with this username",
+                "avatar_url": null,
+                "profile_url": "https://www.instagram.com/dhruvsihag/",
+                "top_posts": []
+            }
+        }
+    ],
+    "all_matches": []
+}

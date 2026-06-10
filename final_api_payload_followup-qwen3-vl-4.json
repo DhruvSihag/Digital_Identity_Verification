@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "inputs_processed": [
+        "ad018jan"
+    ],
+    "email_results": [],
+    "phone_results": [],
+    "username_results": [
+        {
+            "status": "error",
+            "message": "Global thread collection failure: [Errno 2] No such file or directory: 'sherlock'"
+        }
+    ],
+    "instagram_results": [
+        {
+            "target_username": "ad018jan",
+            "platform": "Instagram",
+            "status": "Target Profile Analysis",
+            "extracted_data": {
+                "bio": "no profile available with this username",
+                "avatar_url": null,
+                "profile_url": "https://www.instagram.com/ad018jan/",
+                "top_posts": []
+            }
+        }
+    ],
+    "all_matches": []
+}
