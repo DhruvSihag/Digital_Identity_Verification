@@ -273,3 +273,11 @@ INFO     [BrowserSession] ✅ Browser session reset complete
 INFO     [api] [JOB mistral-test-001] Successfully completed local scraping.
 2026-06-10 17:41:13,098 - api - INFO - 💾 Saved final API payload to final_api_payload_mistral-test-001.json for review.
 INFO     [api] 💾 Saved final API payload to final_api_payload_mistral-test-001.json for review.
+WARNING:  StatReload detected changes in 'config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48225]
+INFO:     Started server process [50216]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
